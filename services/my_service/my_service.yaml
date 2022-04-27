@@ -16,6 +16,7 @@ steps:
   - '--image'
   - 'gcr.io/$PROJECT_ID/my-service'
   - '--region'
+  # The next three arguments are the composition of REGION(You set for the google cloud). So, please change accordingly. 
   - 'us-central1'
   - '--platform'
   - 'managed'
